@@ -1,0 +1,21 @@
+{
+  "name": "pokemon-crud",
+  "version": "1.0.0",
+  "description": "Midterm project",
+  "main": "index.js",
+  "author": "Juneid Gaffar",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "dev" : "nodemon src/index.js",
+    "start": "node src/index.js"
+  }
+}
